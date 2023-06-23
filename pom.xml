@@ -8,16 +8,24 @@
 	<packaging>war</packaging>
 	<name>ProjetoJsp</name>
 
-<!--	<DEPENDENCIES>-->
-<!--		<DEPENDENCY>-->
-<!--			<GROUPID>JAVAX.SERVLET</GROUPID>-->
-<!--			<ARTIFACTID>JAVAX.SERVLET-API</ARTIFACTID>-->
-<!--			<VERSION>4.0.1</VERSION>-->
-<!--			<SCOPE>PROVIDED</SCOPE>-->
-<!--		</DEPENDENCY>-->
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+	</dependencies>
+
+	<!--	<DEPENDENCIES>-->
+	<!--		<DEPENDENCY>-->
+	<!--			<GROUPID>JAVAX.SERVLET</GROUPID>-->
+	<!--			<ARTIFACTID>JAVAX.SERVLET-API</ARTIFACTID>-->
+	<!--			<VERSION>4.0.1</VERSION>-->
+	<!--			<SCOPE>PROVIDED</SCOPE>-->
+	<!--		</DEPENDENCY>-->
 
 
-<!--	</DEPENDENCIES>-->
+	<!--	</DEPENDENCIES>-->
 
 	<build>
 		<plugins>
