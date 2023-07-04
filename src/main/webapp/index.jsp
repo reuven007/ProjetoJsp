@@ -44,7 +44,7 @@ h4{
 <h4>Welcome to my New Project</h4>
 
 
-<form action="ServletLogin" method="post" class="row g-3 needs-validation" novalidate>
+<form action="<%= request.getContextPath() %>/ServletLogin" method="post" class="row g-3 needs-validation" novalidate>
 
 <input type="hidden" value="<%= request.getParameter("url") %>" name="url">
 
